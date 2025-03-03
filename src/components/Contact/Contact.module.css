@@ -46,10 +46,14 @@
   letter-spacing: 1.5px;
 }
 
+
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    text-align: center;
+    padding: 40px 5%; /* Reduce padding for smaller screens */
+    gap: 30px; /* Increase gap for better spacing */
   }
 
   .text {
@@ -58,7 +62,28 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 50px; /* Reduce title size for better fit */
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 24px; /* Adjust font size */
+    letter-spacing: 1px;
+  }
+
   .links {
     align-items: center;
+    gap: 20px;
+  }
+
+  .link {
+    flex-direction: column; /* Stack icon and text */
+    gap: 10px; /* Reduce spacing */
+  }
+
+  .link a {
+    font-size: 22px; /* Reduce link font size */
+    letter-spacing: 1px;
   }
 }

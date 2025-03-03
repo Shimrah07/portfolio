@@ -21,10 +21,14 @@
     },
     {
       "title": "Git Hub",
-      "imageSrc": "skills/github.png"
+      "imageSrc": "skills/gitnew.png"
     },
     {
       "title": "Vite",
       "imageSrc": "skills/vite.png"
+    },
+    {
+      "title": "Redux",
+      "imageSrc": "skills/reduxx.png"
     }
   ]

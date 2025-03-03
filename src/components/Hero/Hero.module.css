@@ -9,6 +9,8 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  gap: 100px;
+  margin-top: 5rem;
 }
 
 .content {
@@ -17,6 +19,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+
 }
 
 .title {
@@ -52,7 +55,7 @@
 }
 
 .heroImg{
-    width: 50%;
+    width: 30%;
     z-index: 1;
 
     animation-name: floating;
@@ -104,13 +107,19 @@
 
 }
 
-@media screen and (min-width: 830px){
-    .container{
+@media screen and (max-width: 830px) {
+    .container {
         flex-direction: column-reverse;
-
+        align-items: center;
+        text-align: center;
     }
 
-    .content{
+    .content {
         align-items: center;
+    }
+
+    .heroImg {
+        width: 50%; 
+        max-width: 250px; 
     }
 }

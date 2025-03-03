@@ -1,26 +1,11 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "The Perfume Abode",
+      "imageSrc": "projects/theperfumeabode.png",
+      "description": "A visually appealing e-commerce website designed to showcase and sell authentic designer perfumes.",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://shimrah07.github.io/ThePerfumeAbode/index.html",
+      "source": "https://github.com/Shimrah07/ThePerfumeAbode"
     }
+    
   ]

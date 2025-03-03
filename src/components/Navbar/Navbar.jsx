@@ -38,6 +38,9 @@ const Navbar = () => {
           <li>
             <a href="#contact"> Contact </a>
           </li>
+          <li>
+            <a href="./Shimrah_Resume.pdf" target="_blank" download="Shimrah_Resume.pdf"> Resume </a>
+          </li>
         </ul>
       </div>
     </nav>

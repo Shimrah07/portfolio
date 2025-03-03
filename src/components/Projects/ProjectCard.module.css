@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 1000px;
 }
 
 .image {
@@ -58,4 +58,45 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+
+
+@media screen and (max-width: 830px) {
+  .container {
+      padding: 14px 18px; /* Reduce padding for smaller screens */
+      max-width: 90%; /* Adjust width to fit smaller screens */
+  }
+
+  .image {
+      margin-bottom: 18px; /* Reduce margin for better spacing */
+      width: 100%; /* Make the image responsive */
+  }
+
+  .title {
+      font-size: 22px; /* Adjust title size for readability */
+  }
+
+  .description {
+      font-size: 20px; /* Reduce text size for better fit */
+  }
+
+  .skills {
+      justify-content: center; /* Center skills on small screens */
+  }
+
+  .skill {
+      font-size: 18px; /* Reduce skill tag size */
+      padding: 2px 16px; /* Adjust padding */
+  }
+
+  .links {
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+      gap: 10px; /* Add spacing between buttons */
+  }
+
+  .link {
+      font-size: 22px; /* Adjust link button size */
+      padding: 8px 20px; /* Adjust padding */
+  }
 }
