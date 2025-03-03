@@ -1,18 +1,28 @@
 {
+<<<<<<< HEAD
   "name": "react-portfolio",
+=======
+  "name": "my_portfolio",
+>>>>>>> e877998ad30ade2d452e2e3fa6111742a29e8fd5
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "deploy": "gh-pages -d dist",
+=======
+>>>>>>> e877998ad30ade2d452e2e3fa6111742a29e8fd5
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fontsource/outfit": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",
+=======
+>>>>>>> e877998ad30ade2d452e2e3fa6111742a29e8fd5
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -25,7 +35,10 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> e877998ad30ade2d452e2e3fa6111742a29e8fd5
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
